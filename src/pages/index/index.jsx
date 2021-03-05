@@ -49,6 +49,7 @@ export default class Index extends Component {
       <View className='index'>
         <AtButton type='primary' openType="getUserInfo" onGetUserInfo={this.login}>登录</AtButton>
         <OpenData type='userAvatarUrl'/>
+        <OpenData type='userAvatarUrl'/>
       </View>
     )
   }
